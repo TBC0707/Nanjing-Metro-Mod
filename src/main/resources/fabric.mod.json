@@ -18,6 +18,9 @@
 		"main": [
 			"name.nanjing.metro.mod.NanjingMetroMod"
 		],
+		"client": [
+			"name.nanjing.metro.mod.NanjingMetroModClient"
+		],
 		"fabric-datagen": [
 			"name.nanjing.metro.mod.NanjingMetroModDataGenerator"
 		]
