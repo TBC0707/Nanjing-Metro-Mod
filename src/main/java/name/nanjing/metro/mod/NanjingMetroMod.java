@@ -1,9 +1,11 @@
 package name.nanjing.metro.mod;
 
+import name.nanjing.metro.mod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 public class NanjingMetroMod implements ModInitializer {
 	public static final String MOD_ID = "nanjing-metro-mod";
@@ -20,5 +22,6 @@ public class NanjingMetroMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
